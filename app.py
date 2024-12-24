@@ -17,7 +17,7 @@ def process_image(input_image, clothing_image):
 
 # Create the Gradio interface
 with gr.Blocks(theme=gr.themes.Base()) as demo:
-    gr.Markdown("# Virtual Try-On Demo")
+    gr.Markdown("# Dolabk")
     
     with gr.Row():
         with gr.Column():
